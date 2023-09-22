@@ -1,0 +1,22 @@
+using System;
+
+namespace PetShop
+{
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            int dogPakets = int.Parse(Console.ReadLine());
+            int catPakets = int.Parse(Console.ReadLine());
+
+            double dogPaketsPrice = dogPakets * 2.5;
+            int catPaketsPrice = catPakets * 4;
+
+            double result = dogPaketsPrice + catPaketsPrice;
+            Console.WriteLine(result + " lv.");
+
+
+
+        }
+    }
+}
